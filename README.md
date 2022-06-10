@@ -10,45 +10,47 @@ I'm just cleaning the code, making it more updated and clear in order to help ot
 
 ## How to download
 
-### Via git
+### Using git
 
 ```bash
-git clone https://gitlab.com/Ryuujin/pyglet_cube_rotation.git
+git clone https://gitlab.com/ThiagoCamposTN/pyglet_cube_rotation.git
 cd pyglet_cube_rotation
 ```
 
-### Other method
+### Alternative method
 
 You can manually download the project, extract the files then open a bash inside it.
 
 ## How to install
 
-### Optional
+### What you'll need
 
-Create an virtual enviroment:
+This project is compatible with `Python 3` and it's not tested with earlier versions.
+
+You will have to install the requirements (that's only `pyglet`) using:
+
+```bash
+pip install -r requirements.txt
+```
+
+It's recomended to use a virtual environment:
 
 ```bash
 virtualenv env
 ```
 
-Then enter it:
+To enter the created environment:
 
-#### On Linux
+On Linux
 
 ```bash
 source env/bin/activate
 ```
 
-#### On Windows
+On Windows
 
 ```bash
 env/scripts/activate
-```
-
-### Obligatory area
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## How to run it
