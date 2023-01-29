@@ -35,7 +35,7 @@ You will have to install the requirements (that's only `pyglet`) using:
 pip install -r requirements.txt
 ```
 
-It's recomended to use a virtual environment:
+It's recommended to use a virtual environment:
 
 ```bash
 virtualenv env
