@@ -8,6 +8,8 @@ Their code is based on [Jeremiah's](https://www.3dgep.com/author/jeremiah/) arti
 
 I'm just cleaning the code, making it more updated and clear in order to help others to know how to start writing a pyglet project.
 
+Since Pyglet [is not supporting OpenGL 2.0 anymore after the release of the Pyglet 2.0 version](https://pyglet.readthedocs.io/en/latest/programming_guide/migration.html), this project will not upgrade Pyglet to the most modern versions for legacy reasons. If you are searching for a modern "hello world" example, this is not what you are looking for!
+
 ## How to download
 
 ### Using git
