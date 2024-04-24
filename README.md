@@ -29,19 +29,13 @@ You can manually download the project, extract the files then open a bash inside
 
 This project is compatible with `Python 3` and it's not tested with earlier versions.
 
-You will have to install the requirements (that's only `pyglet`) using:
-
-```bash
-pip install -r requirements.txt
-```
-
-It's recommended to use a virtual environment:
+It's recommended to first create a virtual environment:
 
 ```bash
 virtualenv env
 ```
 
-To enter the created environment:
+You enter the created environment like this:
 
 On Linux
 
@@ -52,8 +46,15 @@ source env/bin/activate
 On Windows
 
 ```bash
-env/scripts/activate
+.\env\Scripts\activate
 ```
+
+Now you can install the project requirements (that's only `pyglet`) using:
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ## How to run it
 
